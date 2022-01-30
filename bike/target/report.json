@@ -1,0 +1,231 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-30T01:49:17.816Z",
+        "line": 10,
+        "name": "Simulacao de cotacao",
+        "description": "",
+        "id": "simulacao-de-uma-cotacao-de-bikes--seguro-para-seus-bens.;simulacao-de-cotacao",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9353242200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que eu acesse o site \"https://azuq1-br-protector-store.azurewebsites.net/para-voce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://azuq1-br-protector-store.azurewebsites.net/para-voce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.Teste.que_eu_acesse_o_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2387616400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicar na opcao seguro para seus bens",
+            "match": {
+              "location": "steps.Teste.clicar_na_opcao_seguro_para_seus_bens()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4612899500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicar no botao faca uma cotacao",
+            "match": {
+              "location": "steps.Teste.clicar_no_botao_faca_uma_cotacao()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 424316500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencher os campos obrigatorios de cadastro \"Lorenzo\" \"Mata\" \"LLMMAA@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lorenzo\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Mata\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"LLMMAA@hotmail.com\"",
+                  "offset": 62
+                }
+              ],
+              "location": "steps.Teste.preencher_os_campos_obrigatorios_de_cadastro(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2314112900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicar no botao bike",
+            "match": {
+              "location": "steps.Teste.clicar_no_botao_bike()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2269429700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar no botao avancar",
+            "match": {
+              "location": "steps.Teste.clicar_no_botao_avancar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10571309400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "escolher a marca da bike",
+            "match": {
+              "location": "steps.Teste.escolher_a_marca_da_bike()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128381500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencher o valor de mercado \"10000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10000000\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.Teste.preencher_o_valor_de_mercado(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2290701000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicar no botao simular cotacao",
+            "match": {
+              "location": "steps.Teste.clicar_no_botao_simular_cotacao()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5575427700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicar no botao solicite uma cotacao personalizada",
+            "match": {
+              "location": "steps.Teste.clicar_no_botao_solicite_uma_cotacao_personalizada()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130931400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "sera validado \"E-MAIL\", \"TELEFONE\" e \"WHATSAPP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"E-MAIL\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"TELEFONE\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"WHATSAPP\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.Teste.sera_validado_e(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6135654600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "ao clicar em uma das tres opcoes validar a mensagem \"Pronto! Sua solicitação foi encaminhada para um de nossos corretores parceiros.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pronto! Sua solicitação foi encaminhada para um de nossos corretores parceiros.\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.Teste.ao_clicar_em_uma_das_tres_opcoes_validar_a_mensagem(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executa"
+          },
+          {
+            "name": "@executa1"
+          }
+        ]
+      }
+    ],
+    "name": "Simulacao de uma cotacao de Bikes, seguro para seus bens.",
+    "description": "  Eu, enquanto interessado em realizar uma cotacao de bikes,\n  Quero realizar uma simulacao de valores,\n  Para tomar uma decisao quanto a contratacao de seguro.",
+    "id": "simulacao-de-uma-cotacao-de-bikes--seguro-para-seus-bens.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/bike.feature",
+    "tags": [
+      {
+        "name": "@executa",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
